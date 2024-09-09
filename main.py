@@ -42,9 +42,9 @@ max_file_size = 10 * 1024 * 1024 #10MB
 logoGllv = "./imgs/GLLV Logo.png"
 df_completo = None
 
-model1 = joblib.load('model_1120S.pkl')
-model2 = joblib.load('model_1120.pkl')
-model3 = joblib.load('model_1065.pkl')
+model1 = joblib.load('model_1120S_compress.pkl')
+model2 = joblib.load('model_1120_compress.pkl')
+model3 = joblib.load('model_1065_compress.pkl')
 model4 = joblib.load('model_1040.pkl')
 
 #Definir entity_tax_models como un diccionario
