@@ -47,6 +47,11 @@ model2 = joblib.load('model_1120_compress.pkl')
 model3 = joblib.load('model_1065_compress.pkl')
 model4 = joblib.load('model_1040.pkl')
 
+#Usar para generar los modelos comprimidos
+# joblib.dump(model1,'model_1120S_compress.pkl', compress=3)
+# print("Modelo 1120S comprimido")
+
+
 #Definir entity_tax_models como un diccionario
 entity_tax_models = {
     '1120': model2, # Puedes reemplazar 'Modelo 1120S' con el modelo real o función
