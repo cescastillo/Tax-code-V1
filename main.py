@@ -14,7 +14,7 @@ import time
 import io
 import joblib
 
-# Para correr el programa usar streamlit run main.py
+# Para correr el programa localmente usar streamlit run main.py
 st.set_page_config(layout="centered", page_title="Tax Code Model")
 
 st.title("Encode Tax Code")
